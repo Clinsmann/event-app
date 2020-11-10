@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(234, 234, 234) !important;
+}
+
+.ui.inverted.top.fixed.menu {
+  background-image: linear-gradient(
+    135deg,
+    rgb(24, 42, 115) 0%,
+    rgb(33, 138, 174) 69%,
+    rgb(32, 167, 172) 89%
+  ) !important;
+}
+
+/*home page styles*/
+
+.masthead {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    135deg,
+    rgb(24, 42, 115) 0%,
+    rgb(33, 138, 174) 69%,
+    rgb(32, 167, 172) 89%
+  ) !important;
+  height: 100vh;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+/*end home page styles*/
+
+.react-calendar {
+  width: 100% !important;
+  border-style: none !important;
+}
+
+.react-date-picker__inputGroup__input {
+  height: 10px !important;
+  border: 0 !important;
+}
+
+.react-date-picker__wrapper {
+  border: 1px solid rgba(34,36,38,.15) !important;
+  border-radius: .28571429rem;
+  padding: .3rem;
+}
+
+.react-time-picker__inputGroup {
+  height: 10px;
+}
+
+.react-time-picker__inputGroup__input{
+display: inline !important;
+height: auto !important;
+width: auto !important;
+background: none !important;
+border: none !important;
+border-radius: none !important;
+box-shadow: 0 0 0 0 transparent inset;
+padding: .5em !important;
+}
+
+
+
+.react-time-picker__wrapper {
+  border: 1px solid rgba(34,36,38,.15) !important;
+  border-radius: .28571429rem;
+  padding: .3rem;
+}
